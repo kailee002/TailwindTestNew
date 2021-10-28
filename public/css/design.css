@@ -1,0 +1,432 @@
+
+.bodyDesign{
+    text-align: center;
+}
+select{
+    background-color: transparent;
+}
+.img{
+display: inline;
+}
+.title{
+    font-weight: bold;
+}
+.btn-bg{
+    background-color: #9bc64f;
+}
+.social{
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    background-color: #9bc64f;
+}
+.social li{
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 5px;
+    transition: .6s;
+    color:#43475f;
+    position: relative;
+}
+.social li i{
+    font-size: 20px;
+}
+.social li:hover{
+    color: grey;
+}
+.spacer{
+    padding-bottom: 10%;
+}
+.protocol{
+    background-image: url(public/asset/cast.png);
+}
+
+.youtube{
+    display: inline;
+}
+
+.socialMedia nav{
+    font-size: 30px;
+    color: white;
+}
+
+.socialMedia i:hover{
+    color: grey;
+}
+.protocol-btn-bg{
+    background-color: #5a1f5f ;
+}
+.protocolSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+.blue{
+    background-color: #52acad;
+}
+.waves {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+
+.waves .shape-fill {
+    fill: #111827;
+}
+
+.white{
+    background-color: white;
+}
+
+.wavesPress {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesPress svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+
+.wavesPress .shape-fill {
+    fill: #52acad;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carouselItem {
+    position: static;
+    opacity: 100;
+}
+
+.cardDisplay{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: initial;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+.gray{
+    background-color: #dcdcdc;
+}
+
+.wavesUpdates {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesUpdates svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+
+.wavesUpdates .shape-fill {
+    fill: white;
+}
+.protocolCards{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.wavesEco {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesEco svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+
+.wavesEco .shape-fill {
+    fill: #dcdcdc;
+}
+.benefitContainer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.registerBtn{
+    display: flex;
+}
+.tokenDesign{
+    background-image: url(../asset/token-generation-bg.png);
+}
+.wavesToken .shape-fill {
+    fill: white;
+}
+.wavesToken {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesToken svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+.tableDesign{
+    display: flex;
+    justify-content: space-around;
+}
+.token td{
+    width: 300px;
+}
+.tokenText{
+    width: 500px;
+    display: inline-block;
+}
+.purpleCards{
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.tokenAllocationList{
+    list-style-type: square;
+}
+.roadmap{
+    background-image: url(../asset/implementation-roadmap-bg.png);
+}
+
+.wavesRoadFlip .shape-fill {
+    fill: white;
+}
+.wavesRoadFlip {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wavesRoadFlip svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+.wavesRoad .shape-fill {
+    fill: white;
+}
+.wavesRoad {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesRoad svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+.wavesCast .shape-fill {
+    fill: #f1f1f4;
+}
+.wavesCast {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesCast svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 167px;
+}
+.cast{
+    background-image: url(../asset/cast.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.devTeam{
+    display: flex;
+    justify-content: center;
+}
+.flipCard {
+  background-color: transparent;
+  width: 180px;
+  height: 245px;
+  perspective: 1000px;
+}
+
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipCardBack {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.memberCards{
+    display: inline;
+}
+.contactDesign{
+    display: flex;
+    justify-content: center;
+}
+.purpleBg{
+    background-image: url(../asset/purple.png);
+}
+.touchBg{
+    background-image: url(../asset/touchBg.png)
+}
